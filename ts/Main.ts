@@ -1,4 +1,4 @@
-import { Scanner } from './Lox/Scanner';
+import { Lox } from './Lox/Lox';
 
-const scanner = new Scanner();
-console.log(scanner);
+const lox = new Lox();
+lox.main();
