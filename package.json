@@ -1,0 +1,15 @@
+{
+  "name": "tslox",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc-watch --onSuccess \"node --inspect=7777 ./bin/Main.js\"",
+    "start": "node ./bin/Main.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
